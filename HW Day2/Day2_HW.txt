@@ -1,0 +1,13 @@
+作業2：
+Airbnb open data (New York City)
+
+1. 全世界各地旅遊越來越傾向自由行，除了交通網絡更發達，網路搜尋更方便查到各地方情以及大大小小問題解決，更重要的是更便宜以及可以自行規畫旅遊表與時間。而旅遊中住宿也占了很重要的部分，擁有良好的居住品質相信對第二天更有力氣遊玩行程。所以這個 open data 可以讓消費者找到更適合自己以及合理的價格。
+
+2. https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data  但目前只有紐約市，裡面主要有附近著名地標，被reviews的次數多寡和空房率等...，而資料來源:
+http://insideairbnb.com/
+
+3. 資料檔案為 CSV 檔，而每個標題都有對應到的數據，若是名稱(例如附近景點)的資料型態為string，若為距離之類的為integer or decimal，而住宿日期是否空房為datetime型態，基本上使用 python 較好處理
+
+4. 透過訓練模型後，去判斷這間房的價格(透過一些上述資料，形成價錢公式，當然也會隨著不同住宿時間做改變)，也透過此去判斷網路上價格是否合理。
+
+網址:https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
